@@ -2477,37 +2477,28 @@ function EarlyBirdSoloPresenter() {
         </div>
 
         {/* Terms */}
-        <div className="flex flex-col gap-2 pt-2">
-          <div className="bg-[#f8fafc] border border-[#f1f5f9] rounded-[16px] flex flex-col">
-            <div className="p-4 flex flex-col gap-4">
-              <label className="flex items-center gap-3 cursor-pointer group overflow-hidden">
-                <input type="checkbox" className="size-[18px] shrink-0 rounded border-[#cbd5e1] text-[#013af5] focus:ring-[#013af5]" />
-                <span className="text-black text-[12px] font-normal leading-tight truncate">
-                  <span className="text-[#64748b] mr-1">Agree to:</span>
-                  <span className="underline underline-offset-2 hover:opacity-80 transition-opacity">Baltimore General Liability Waiver & Code of Conduct</span>
-                </span>
-              </label>
-              <label className="flex items-center gap-3 cursor-pointer group overflow-hidden">
-                <input type="checkbox" className="size-[18px] shrink-0 rounded border-[#cbd5e1] text-[#013af5] focus:ring-[#013af5]" />
-                <span className="text-black text-[12px] font-normal leading-tight truncate">
-                  <span className="text-[#64748b] mr-1">Agree to:</span>
-                  <span className="underline underline-offset-2 hover:opacity-80 transition-opacity">Cancellation and No-Show Policy</span>
-                </span>
-              </label>
+        <div className="flex flex-col gap-2.5 pt-1 px-1 mt-1 border-t border-[#e2e8f0] pt-4">
+          <label className="flex items-center gap-2 cursor-pointer group overflow-hidden">
+            <input type="checkbox" className="size-[14px] shrink-0 rounded border-[#cbd5e1] text-[#013af5] focus:ring-[#013af5]" />
+            <span className="text-[#64748b] text-[10px] font-normal leading-tight truncate mt-0.5">
+              Agree to: <span className="underline underline-offset-2 hover:opacity-80 transition-opacity">Baltimore General Liability Waiver & Code of Conduct</span>
+            </span>
+          </label>
+          <label className="flex items-center gap-2 cursor-pointer group overflow-hidden">
+            <input type="checkbox" className="size-[14px] shrink-0 rounded border-[#cbd5e1] text-[#013af5] focus:ring-[#013af5]" />
+            <span className="text-[#64748b] text-[10px] font-normal leading-tight truncate mt-0.5">
+              Agree to: <span className="underline underline-offset-2 hover:opacity-80 transition-opacity">Cancellation and No-Show Policy</span>
+            </span>
+          </label>
+          {/* Volo Kids Donation */}
+          <label className="flex items-start gap-2 cursor-pointer group pt-1">
+            <input type="checkbox" className="size-[14px] shrink-0 mt-[2px] rounded border-[#cbd5e1] text-[#013af5] focus:ring-[#013af5]" />
+            <div className="flex flex-col min-w-0 flex-1 mt-0.5">
+              <span className="text-[#64748b] text-[12px] leading-tight font-normal">
+                Donate $1 to Volo Kids at no extra cost.
+              </span>
             </div>
-
-            <div className="h-px w-full bg-[#e2e8f0]" />
-
-            {/* Volo Kids Donation */}
-            <div className="p-4 flex items-start gap-3">
-              <input type="checkbox" className="size-[18px] shrink-0 mt-0.5 rounded border-[#cbd5e1] text-[#013af5] focus:ring-[#013af5]" />
-              <div className="flex gap-3 min-w-0">
-                <p className="text-[#1e293b] text-[12px] leading-tight font-normal min-w-0 flex-1">
-                  Donate $1 of your registration to Volo Kids at no extra cost.
-                </p>
-              </div>
-            </div>
-          </div>
+          </label>
         </div>
 
         {/* Primary Action */}
