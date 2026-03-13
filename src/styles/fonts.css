@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'VoloSansPro';
+  src: local('VoloSansPro-Regular'), local('VoloSansPro'), url('../assets/fonts/VoloSansPro.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VoloSansPro';
+  src: local('VoloSansPro-Bold'), local('VoloSansPro Bold'), url('../assets/fonts/VoloSansPro.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VoloSansPro';
+  src: local('VoloSansPro-Black'), local('VoloSansPro Ultra'), url('../assets/fonts/VoloSans-ultra.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VoloSansPro:Bold';
+  src: local('VoloSansPro-Bold'), local('VoloSansPro Bold'), url('../assets/fonts/VoloSansPro.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VoloSansPro:Regular';
+  src: local('VoloSansPro-Regular'), url('../assets/fonts/VoloSansPro.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VoloSansPro:Ultra';
+  src: local('VoloSansPro-Black'), local('VoloSans-ultra'), url('../assets/fonts/VoloSans-ultra.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Fallback for Source Sans Pro if not provided, mapping it to Volo for now or just letting it fall back to sans-serif */
+@font-face {
+  font-family: 'Source_Sans_Pro:Regular';
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url('../assets/fonts/VoloSansPro.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Source_Sans_Pro:SemiBold';
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url('../assets/fonts/VoloSansPro.otf') format('opentype');
+}
